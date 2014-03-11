@@ -1,0 +1,17 @@
+@import "bourbon/bourbon";
+@import "grid-settings";
+@import "neat/neat";
+
+
+body                  { /*background: url('http://griddle.it/1000-12-20') repeat-y center top;*/}
+
+.container            { @include outer-container();}
+
+.list.inline li       { display: inline;}
+
+.list.unstyled        { list-style-type: none; margin:0; padding: 0; }
+
+.feature-banner       { @include fill-parent();}
+
+.thumb-row__img       { max-width: 100%; @include span-columns(4);}
+
